@@ -21,7 +21,9 @@ $(document).ready(function(){
             type:"GET",                  
             url :"books.json",         
             beforeSend : function(){
+                //alert("Select a Category of Book");
                 $("#load").show();
+                
             },
             success : function(data){
                 $("#load").hide();              

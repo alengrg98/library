@@ -9,6 +9,7 @@ $(document).ready(function(){
     })
 
     $('#nv3').click(function(){
+        //alert("Select a Category of Book");
         window.location.assign('lib.html');
     })
 
